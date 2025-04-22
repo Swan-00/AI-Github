@@ -1,0 +1,7 @@
+# .github/dependabot.yml
+version: 2
+updates:
+  - package-ecosystem: "npm" # change to your ecosystem: pip, maven, docker, etc.
+    directory: "/"           # location of your package file
+    schedule:
+      interval: "weekly"     # can be "daily" or "monthly"
